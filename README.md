@@ -85,3 +85,9 @@ alias pygrun='python3 "$(installdir)"/bin/pygrun'
 ## III. Matching an Arithmetic Expression Language
 Only the basic arithmetic operators (add, subtract, multiply, and divide), parenthesized expressions, integer numbers, and variables.
 #### Click [here](./02-expr/) to see details.
+
+## IV. Building a Calculator Using a Visitor
+Get the previous arithmetic expression parser to compute values, this example shows:
+- Visitor pattern
+- Use of Alternative Label
+#### Click [here](./03-calc/) to see details.

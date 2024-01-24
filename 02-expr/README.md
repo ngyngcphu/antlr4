@@ -26,7 +26,7 @@ INT: [0-9]+;
 NEWLINE: '\r'? '\n';
 WS: [ \t] -> skip;
 ```
-Build and test sequence on the grammar file
+Build and test sequence on the grammar file:
 ```
 antlr4py3 Expr.g4
 pygrun Expr prog --tree t.expr
