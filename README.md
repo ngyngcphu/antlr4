@@ -1,7 +1,6 @@
 # ANTLR4 Cook Book
 
-> My note for book The Definitive ANTLR 4 Reference - Terence Parr.  
-I use antlr4 version 4.9.2 and antlr4-python3-runtime version 4.9.2.
+> My note for book The Definitive ANTLR 4 Reference - Terence Parr. I use antlr4 version 4.9.2 and antlr4-python3-runtime version 4.9.2.
 
 ## I. Installing ANTLR (Ubuntu 22.04)
 
@@ -81,4 +80,4 @@ alias installdir='dirname "$(pwd)"'
 alias pygrun='python3 "$(installdir)"/bin/pygrun'
 ```
 
-#### Once fully installed, go [here](./array/) to view the exercise.
+#### Once fully installed, go [here](./02-array/) to view the exercise.
