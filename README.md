@@ -81,3 +81,7 @@ alias pygrun='python3 "$(installdir)"/bin/pygrun'
 ```
 
 #### Once fully installed, go [here](./01-array/) to view the exercise.
+
+## III. Matching an Arithmetic Expression Language
+Only the basic arithmetic operators (add, subtract, multiply, and divide), parenthesized expressions, integer numbers, and variables.
+#### Click [here](./02-expr/) to see details.
