@@ -36,7 +36,7 @@ Check to see:
 ### 4. Execute ANTLR and Testing Recognizers
 > This is code from the book with Lexer and Parser generated from the antlr4 java runtime, it is for testing purposes only. All other exercises will be coded in python, using antlr4-python3-runtime.
 
-Simple grammar that recognizes phrases in `hello/Hello.g4`:
+Simple grammar that recognizes phrases in `test-hello/Hello.g4`:
 ```antlr4
 grammar Hello;
 r: 'hello' ID;
@@ -53,7 +53,7 @@ WS: [ \t\r\n]+ -> skip;
     ```
 - Print the tokens created during recognition (type Ctrl-D to terminate reading from standard input):
     ```
-    grun Hello r -tokens
+    cd target && grun Hello r -tokens
     ```
     ![](./assets/test-grun.png)
 
@@ -80,4 +80,4 @@ alias installdir='dirname "$(pwd)"'
 alias pygrun='python3 "$(installdir)"/bin/pygrun'
 ```
 
-#### Once fully installed, go [here](./02-array/) to view the exercise.
+#### Once fully installed, go [here](./01-array/) to view the exercise.
