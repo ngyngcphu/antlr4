@@ -88,6 +88,14 @@ Only the basic arithmetic operators (add, subtract, multiply, and divide), paren
 
 ## IV. Building a Calculator Using a Visitor
 Get the previous arithmetic expression parser to compute values, this example shows:
-- Visitor pattern
-- Use of Alternative Label
+- Visitor pattern.
+- Use of Alternative Label.
 #### Click [here](./03-calc/) to see details.
+
+## V. Embedding Arbitrary Actions in a Grammar
+Build a program that prints out a specific column from rows of data, this example shows:
+- Embedded python actions.
+- Local variable and initialization.
+- Get column from command line and set in parser.
+- Do not build tree.
+#### Click [here](./04-row/) to see details.
