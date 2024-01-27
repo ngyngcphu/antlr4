@@ -99,3 +99,10 @@ Build a program that prints out a specific column from rows of data, this exampl
 - Get column from command line and set in parser.
 - Do not build tree.
 #### Click [here](./04-row/) to see details.
+
+## VI. Altering the Parse with Semantic Predicates
+We can demonstrate the power of semantic predicates with a simple example, this example shows:
+- Pass parameter to rule.
+- Local variable.
+- Semantic predication: 1st data decide the number of data followed
+#### Click [here](./05-sempred/) to see details.
