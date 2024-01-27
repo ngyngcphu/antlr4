@@ -106,3 +106,10 @@ We can demonstrate the power of semantic predicates with a simple example, this 
 - Local variable.
 - Semantic predication: 1st data decide the number of data followed
 #### Click [here](./05-sempred/) to see details.
+
+## VII. Island Grammars: Dealing with Different Formats in the Same File
+ANTLR provides a well-known lexer feature called lexical modes that lets us deal easily with files containing mixed formats. The basic idea is to have the lexer switch back and forth between modes when it sees special sentinel character sequences.  
+XML is a good example, this example shows:
+- Lexer Only, call nextToken() method till end of file (Token.EOF).
+- Switch Mode.
+#### Click [here](./06-xml/) to see details.
