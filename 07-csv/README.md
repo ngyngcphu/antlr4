@@ -18,12 +18,12 @@ STRING: '"' ('""' | ~'"')* '"';     // quote-quote is an escaped quote in file C
 // Input like "x""y" would match two strings, not one string with "" inside it.
 ```
 ## II. Build and test
-1. Build:
+1. Build
     ```
     antlr4py3 CSV.g4
     ```
-2. Test:
-- Gen token stream:
+2. Test
+- Generate tokens stream:
     ```
     pygrun CSV top --tokens data.csv
     ->  [@0,0:6='Details',<4>,1:0]
@@ -51,7 +51,7 @@ STRING: '"' ('""' | ~'"')* '"';     // quote-quote is an escaped quote in file C
         [@22,91:91='\n',<3>,4:25]
         [@23,92:91='<EOF>',<-1>,5:0]
     ```
-- Gen parse tree:
+- Generate parser tree:
     ```
     pygrun CSV top --tree data.csv
     ->  (top 

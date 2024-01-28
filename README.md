@@ -118,6 +118,9 @@ XML is a good example, this example shows:
 1. **Parsing Common-Separated Values**  
 The first language we’ll look at is the comma-separated-value (CSV) format used by spreadsheets and databases. CSV is a great place to start because it’s simple and yet widely applicable.
     #### Click [here](./07-csv/) to see details.
+2. **Parsing JSON**  
+The second language is also a data format, called JSON,1 that has nested data elements, which lets us explore the use of rule recursion in a real language.
+    #### Click [here](./08-json/) to see details.
 
 # References:
 #### I. Lexer starter kit
