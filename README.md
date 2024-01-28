@@ -113,3 +113,47 @@ XML is a good example, this example shows:
 - Lexer Only, call nextToken() method till end of file (Token.EOF).
 - Switch Mode.
 #### Click [here](./06-xml/) to see details.
+
+# References:
+#### I. Lexer starter kit:
+1. Punctuation
+    ```antlr4
+    call: ID '(' exprList ')';
+    ```
+    or
+    ```antlr4
+    call: ID LP exprList RP;
+    LP: '(';
+    RP: ')';
+    ```
+2. Keywords
+    ```antlr4
+    returnStat: 'return' expr ';';
+    ```
+3. Indentifiers
+    ```antlr4
+    ID: ID_LETTER (ID_LETTER | DIGIT)*; // From C language
+    fragment ID_LETTER: 'a'..'z' | 'A'..'Z' | '_';
+    fragment DIGIT: '0'..'9';
+    ```
+4. Numbers
+    ```antlr4
+    INT: DIGIT+;
+    FLOAT: DIGIT+ '.' DIGIT*
+        | '.' DIGIT+
+        ;
+    ```
+5. Strings
+    ```antlr4
+    STRING: '"' (ESC | .)*? '"';
+    fragment ESC: '\\' [btnr"\\]; // \b, \t, \n etc...
+    ```
+6. Comments:
+    ```antlr4
+    LINE_COMMENT: '//' .*? '\n' -> skip;
+    COMMENT: '/*' .*? '*/' -> skip;
+    ```
+7. Whitespace:
+    ```antlr4
+    WS: [ \t\n\r]+ -> skip;
+    ```
