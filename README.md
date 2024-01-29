@@ -119,8 +119,11 @@ XML is a good example, this example shows:
 The first language we’ll look at is the comma-separated-value (CSV) format used by spreadsheets and databases. CSV is a great place to start because it’s simple and yet widely applicable.
     #### Click [here](./07-csv/) to see details.
 2. **Parsing JSON**  
-The second language is also a data format, called JSON,1 that has nested data elements, which lets us explore the use of rule recursion in a real language.
+The second language is also a data format, called JSON, that has nested data elements, which lets us explore the use of rule recursion in a real language.
     #### Click [here](./08-json/) to see details.
+3. **Parsing DOT**  
+Next, we’ll look at a declarative language called DOT for describing graphs (networks). In a declarative language, we express logical constructions without specifying control flow. DOT lets us explore more complicated lexical structures, such as case-insensitive keywords.
+    #### Click [here](./09-dot/) to see details.
 
 # References:
 #### I. Lexer starter kit

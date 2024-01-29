@@ -81,7 +81,7 @@ WS: [ \t\n\r] -> skip;
 - Generate parser tree:
     ```
     pygrun JSON json --tree t.json
-    -> (json 
+    ->  (json 
             (obj { 
                 (pair "antlr.org" : 
                     (value 
