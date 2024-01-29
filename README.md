@@ -127,6 +127,9 @@ Next, we’ll look at a declarative language called DOT for describing graphs (n
 4. **Parsing Cymbol**  
 Our fourth language is a simple non-object-oriented programming language called Cymbol. It’s a prototypical grammar we can use as a reference or starting point for other imperative programming languages (those composed of functions, variables, statements, and expressions).
     #### Click [here](./10-cymbol/) to see details.
+5. **Parsing R**  
+Finally, we’ll build a grammar for the R functional programming language.(Functional languages compute by evaluating expressions.) R is a statistical programming language increasingly used for data analysis.
+    #### Click [here](./11-R/) to see details.
 
 # References:
 #### I. Lexer starter kit
