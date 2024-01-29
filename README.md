@@ -124,6 +124,9 @@ The second language is also a data format, called JSON, that has nested data ele
 3. **Parsing DOT**  
 Next, we’ll look at a declarative language called DOT for describing graphs (networks). In a declarative language, we express logical constructions without specifying control flow. DOT lets us explore more complicated lexical structures, such as case-insensitive keywords.
     #### Click [here](./09-dot/) to see details.
+4. **Parsing Cymbol**  
+Our fourth language is a simple non-object-oriented programming language called Cymbol. It’s a prototypical grammar we can use as a reference or starting point for other imperative programming languages (those composed of functions, variables, statements, and expressions).
+    #### Click [here](./10-cymbol/) to see details.
 
 # References:
 #### I. Lexer starter kit
