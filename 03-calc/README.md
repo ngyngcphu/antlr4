@@ -3,7 +3,8 @@ Use the well-known Visitor pattern to implement our little calculator.
 
 ## I. Grammar
 Label the alternatives of the rules. Labels appear on the right edge of alternatives and start with the # symbol in our new grammar, `LabeledExpr`:
-```anltr4
+
+```anltr
 stat: expr NEWLINE              # printExpr             
     | ID '=' expr NEWLINE       # assign
     | NEWLINE                   # blank
@@ -17,8 +18,10 @@ expr:
 	| '(' expr ')'              # parens
     ;
 ```
+
 Define some token names for the operator literals:
-```anltr4
+
+```anltr
 MUL: '*';
 DIV: '/';
 ADD: '+';

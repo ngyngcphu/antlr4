@@ -2,7 +2,7 @@
 DOT is a declarative language for describing graphs such as network diagrams, trees, or state machines. It’s a generically useful graphing tool, particularly if you have a program that needs to generate images.
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar DOT;
 
 graph: STRICT? (GRAPH | DIGRAPH) iden? '{' stmt_list '}';

@@ -6,7 +6,7 @@ Simple Arithmetic Expression Language, include:
 - Variables
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar Expr;
 
 prog: stat+ EOF;

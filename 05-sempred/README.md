@@ -2,7 +2,7 @@
 A grammar that reads in sequences of integers. The trick is that part of the input specifies how many integers to group together. We don’t know until runtime how many integers to match.
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar Data;
 
 top: group+;

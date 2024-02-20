@@ -2,7 +2,7 @@
 To demonstrate how to parse a programming language with syntax derived from C, we’re going to build a grammar for a language I conjured up called Cymbol. Cymbol is a simple non-object-oriented programming language that looks like C without structs. A grammar for this language serves as a good prototype for other new programming languages.
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar Cymbol;
 
 program: (functionDecl | varDecl)+;

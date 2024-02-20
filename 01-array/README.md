@@ -2,7 +2,7 @@
 Simple Translation of Array of non-negative integers.
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar ArrayInit;
 
 init: '{' value (',' value)* '}';

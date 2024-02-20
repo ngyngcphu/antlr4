@@ -3,7 +3,8 @@ We can compute values or print things out on-the-fly during parsing if we don’
 
 ## I. Grammar
 The columns are tab-delimited, and each row ends with a newline character. Matching this kind of input is pretty simple grammatically.
-```antlr4
+
+```antlr
 grammar Rows;
 
 @parser::members {          // add members to generated RowsParser

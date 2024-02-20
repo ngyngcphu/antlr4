@@ -2,7 +2,7 @@
 R is an expressive domain-specific programming language for describing statistical problems. 
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar R;
 
 program: (expr_or_assign (';' | NL) | NL)* EOF;

@@ -2,7 +2,7 @@
 Basic CSV grammar
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar CSV;
 
 top: hdr row+;

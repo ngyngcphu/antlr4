@@ -2,7 +2,7 @@
 Our goal is to build an ANTLR grammar by reading the JSON reference manual and looking at its syntax diagram and existing grammar. We’ll pull out key phrases from the manual and figure out how to encode them as ANTLR rules, starting with the grammatical structures.
 
 ## I. Grammar
-```antlr4
+```antlr
 grammar JSON;
 
 json: obj | array;

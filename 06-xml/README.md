@@ -2,7 +2,7 @@
 An XML parser treats everything other than tags and entity references (such as *\&pound*;) as text chunks. When the lexer sees <, it switches to “inside” mode and switches back to the default mode when it sees > or />. The following grammar demonstrates how this works.
 
 ## I. Grammar
-```antlr4
+```antlr
 lexer grammar XMLLexer;
 
 OPEN        :   '<'                 -> pushMode(INSIDE);
